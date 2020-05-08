@@ -27,7 +27,7 @@ public class Server3 {
 				
 				DataOutputStream outFromClient = new DataOutputStream(sc.getOutputStream());
 				
-				outFromClient.writeUTF("Answer of Addition operation is :"+answer);
+				outFromClient.writeUTF("Answer of Addition operation is :  "+answer);
 				}
 				catch(Exception e){
 					e.printStackTrace();
